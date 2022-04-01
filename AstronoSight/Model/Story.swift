@@ -18,7 +18,7 @@ struct Story: Identifiable {
     static func getStory() -> Story {
         return Story(
             id: UUID(),
-            image: "🎉".toImage() ?? UIImage(),
+            image: UIImage(named: "1")!,
             title: "Tryout",
             liveIndicator: .blue
         )

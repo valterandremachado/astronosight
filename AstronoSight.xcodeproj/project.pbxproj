@@ -7,7 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A33B92927F420C700A6922D /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A33B92827F420C700A6922D /* Event.swift */; };
 		8A870ED127F2E4740055891A /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A870ED027F2E4740055891A /* Story.swift */; };
+		8ABB852A27F6C67300FED8DD /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB852927F6C67300FED8DD /* APIClient.swift */; };
+		8ABB852C27F6C8F500FED8DD /* APIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB852B27F6C8F500FED8DD /* APIClientProtocol.swift */; };
+		8ABB853027F6CA7200FED8DD /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB852F27F6CA7200FED8DD /* Networking.swift */; };
+		8ABB853327F6D07100FED8DD /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB853227F6D07100FED8DD /* Closures.swift */; };
+		8ABB853927F6D27000FED8DD /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB853827F6D27000FED8DD /* Users.swift */; };
+		8ABB853B27F6D3D700FED8DD /* UserServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB853A27F6D3D700FED8DD /* UserServiceProtocol.swift */; };
+		8ABB853D27F6D4E700FED8DD /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB853C27F6D4E700FED8DD /* UserService.swift */; };
+		8ABB853F27F6DAA900FED8DD /* StoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB853E27F6DAA900FED8DD /* StoryViewModel.swift */; };
+		8ABB854127F6DABB00FED8DD /* StoryViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB854027F6DABB00FED8DD /* StoryViewModelProtocol.swift */; };
+		8ABB854727F6F16800FED8DD /* MyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB854627F6F16800FED8DD /* MyAppDelegate.swift */; };
+		8ABB854927F7258400FED8DD /* CustomAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB854827F7258400FED8DD /* CustomAsyncImage.swift */; };
+		8ABB854B27F72D7800FED8DD /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB854A27F72D7800FED8DD /* StoryView.swift */; };
+		8ABB854D27F72DAD00FED8DD /* EventCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB854C27F72DAD00FED8DD /* EventCardView.swift */; };
+		8ABB855127F72E0200FED8DD /* StoryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB855027F72E0200FED8DD /* StoryHeader.swift */; };
 		8AC0C0C227E874E1001D2F12 /* AstronoSightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC0C0C127E874E1001D2F12 /* AstronoSightApp.swift */; };
 		8AC0C0C427E874E1001D2F12 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC0C0C327E874E1001D2F12 /* MainView.swift */; };
 		8AC0C0C627E874E4001D2F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC0C0C527E874E4001D2F12 /* Assets.xcassets */; };
@@ -16,7 +31,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A33B92827F420C700A6922D /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		8A870ED027F2E4740055891A /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		8ABB852927F6C67300FED8DD /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		8ABB852B27F6C8F500FED8DD /* APIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientProtocol.swift; sourceTree = "<group>"; };
+		8ABB852F27F6CA7200FED8DD /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		8ABB853227F6D07100FED8DD /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		8ABB853827F6D27000FED8DD /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		8ABB853A27F6D3D700FED8DD /* UserServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceProtocol.swift; sourceTree = "<group>"; };
+		8ABB853C27F6D4E700FED8DD /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		8ABB853E27F6DAA900FED8DD /* StoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewModel.swift; sourceTree = "<group>"; };
+		8ABB854027F6DABB00FED8DD /* StoryViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewModelProtocol.swift; sourceTree = "<group>"; };
+		8ABB854627F6F16800FED8DD /* MyAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppDelegate.swift; sourceTree = "<group>"; };
+		8ABB854827F7258400FED8DD /* CustomAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAsyncImage.swift; sourceTree = "<group>"; };
+		8ABB854A27F72D7800FED8DD /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		8ABB854C27F72DAD00FED8DD /* EventCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCardView.swift; sourceTree = "<group>"; };
+		8ABB855027F72E0200FED8DD /* StoryHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryHeader.swift; sourceTree = "<group>"; };
 		8AC0C0BE27E874E1001D2F12 /* AstronoSight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstronoSight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC0C0C127E874E1001D2F12 /* AstronoSightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronoSightApp.swift; sourceTree = "<group>"; };
 		8AC0C0C327E874E1001D2F12 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -36,6 +66,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8ABB852627F6C1B100FED8DD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8ABB855027F72E0200FED8DD /* StoryHeader.swift */,
+				8ABB854A27F72D7800FED8DD /* StoryView.swift */,
+				8ABB854C27F72DAD00FED8DD /* EventCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8ABB852727F6C1C500FED8DD /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				8ABB855227F72E4D00FED8DD /* Scenes */,
+				8ABB853E27F6DAA900FED8DD /* StoryViewModel.swift */,
+				8ABB854027F6DABB00FED8DD /* StoryViewModelProtocol.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		8ABB852827F6C64200FED8DD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8ABB852927F6C67300FED8DD /* APIClient.swift */,
+				8ABB852B27F6C8F500FED8DD /* APIClientProtocol.swift */,
+				8ABB852F27F6CA7200FED8DD /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8ABB853127F6D05700FED8DD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8ABB853227F6D07100FED8DD /* Closures.swift */,
+				8ABB854827F7258400FED8DD /* CustomAsyncImage.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8ABB853427F6D1BD00FED8DD /* User */ = {
+			isa = PBXGroup;
+			children = (
+				8ABB853727F6D25300FED8DD /* Services */,
+				8ABB853627F6D24900FED8DD /* Clients */,
+				8ABB853527F6D23F00FED8DD /* Models */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		8ABB853527F6D23F00FED8DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8ABB853827F6D27000FED8DD /* Users.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8ABB853627F6D24900FED8DD /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		8ABB853727F6D25300FED8DD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8ABB853C27F6D4E700FED8DD /* UserService.swift */,
+				8ABB853A27F6D3D700FED8DD /* UserServiceProtocol.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8ABB855227F72E4D00FED8DD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8AC0C0C327E874E1001D2F12 /* MainView.swift */,
+				8AC0C0CF27E87AC9001D2F12 /* EventsView.swift */,
+				8ABB852627F6C1B100FED8DD /* Components */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		8AC0C0B527E874E1001D2F12 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				8AC0C0D427E87C24001D2F12 /* App */,
+				8ABB853127F6D05700FED8DD /* Helpers */,
+				8ABB852827F6C64200FED8DD /* Networking */,
 				8AC0C0D127E87B7A001D2F12 /* Model */,
 				8AC0C0D227E87B83001D2F12 /* View */,
 				8AC0C0D327E87B88001D2F12 /* ViewModel */,
@@ -76,6 +191,9 @@
 		8AC0C0D127E87B7A001D2F12 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8ABB853427F6D1BD00FED8DD /* User */,
+				8A870ED027F2E4740055891A /* Story.swift */,
+				8A33B92827F420C700A6922D /* Event.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -83,10 +201,7 @@
 		8AC0C0D227E87B83001D2F12 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8AC0C0C127E874E1001D2F12 /* AstronoSightApp.swift */,
-				8AC0C0C327E874E1001D2F12 /* MainView.swift */,
-				8AC0C0CF27E87AC9001D2F12 /* EventsView.swift */,
-				8A870ED027F2E4740055891A /* Story.swift */,
+				8ABB852727F6C1C500FED8DD /* Events */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -101,6 +216,8 @@
 		8AC0C0D427E87C24001D2F12 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				8AC0C0C127E874E1001D2F12 /* AstronoSightApp.swift */,
+				8ABB854627F6F16800FED8DD /* MyAppDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -178,9 +295,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AC0C0C427E874E1001D2F12 /* MainView.swift in Sources */,
+				8ABB855127F72E0200FED8DD /* StoryHeader.swift in Sources */,
 				8AC0C0C227E874E1001D2F12 /* AstronoSightApp.swift in Sources */,
+				8ABB853D27F6D4E700FED8DD /* UserService.swift in Sources */,
+				8ABB854D27F72DAD00FED8DD /* EventCardView.swift in Sources */,
+				8ABB853927F6D27000FED8DD /* Users.swift in Sources */,
+				8ABB854127F6DABB00FED8DD /* StoryViewModelProtocol.swift in Sources */,
+				8ABB853F27F6DAA900FED8DD /* StoryViewModel.swift in Sources */,
+				8ABB854B27F72D7800FED8DD /* StoryView.swift in Sources */,
 				8AC0C0D027E87ACA001D2F12 /* EventsView.swift in Sources */,
+				8ABB854727F6F16800FED8DD /* MyAppDelegate.swift in Sources */,
+				8ABB853027F6CA7200FED8DD /* Networking.swift in Sources */,
+				8ABB853B27F6D3D700FED8DD /* UserServiceProtocol.swift in Sources */,
 				8A870ED127F2E4740055891A /* Story.swift in Sources */,
+				8A33B92927F420C700A6922D /* Event.swift in Sources */,
+				8ABB853327F6D07100FED8DD /* Closures.swift in Sources */,
+				8ABB854927F7258400FED8DD /* CustomAsyncImage.swift in Sources */,
+				8ABB852C27F6C8F500FED8DD /* APIClientProtocol.swift in Sources */,
+				8ABB852A27F6C67300FED8DD /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
