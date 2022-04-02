@@ -22,7 +22,7 @@
 		8ABB854927F7258400FED8DD /* CustomAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB854827F7258400FED8DD /* CustomAsyncImage.swift */; };
 		8ABB854B27F72D7800FED8DD /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB854A27F72D7800FED8DD /* StoryView.swift */; };
 		8ABB854D27F72DAD00FED8DD /* EventCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB854C27F72DAD00FED8DD /* EventCardView.swift */; };
-		8ABB855127F72E0200FED8DD /* StoryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB855027F72E0200FED8DD /* StoryHeader.swift */; };
+		8ABB855127F72E0200FED8DD /* ListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB855027F72E0200FED8DD /* ListHeader.swift */; };
 		8AC0C0C227E874E1001D2F12 /* AstronoSightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC0C0C127E874E1001D2F12 /* AstronoSightApp.swift */; };
 		8AC0C0C427E874E1001D2F12 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC0C0C327E874E1001D2F12 /* MainView.swift */; };
 		8AC0C0C627E874E4001D2F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC0C0C527E874E4001D2F12 /* Assets.xcassets */; };
@@ -46,7 +46,7 @@
 		8ABB854827F7258400FED8DD /* CustomAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAsyncImage.swift; sourceTree = "<group>"; };
 		8ABB854A27F72D7800FED8DD /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 		8ABB854C27F72DAD00FED8DD /* EventCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCardView.swift; sourceTree = "<group>"; };
-		8ABB855027F72E0200FED8DD /* StoryHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryHeader.swift; sourceTree = "<group>"; };
+		8ABB855027F72E0200FED8DD /* ListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeader.swift; sourceTree = "<group>"; };
 		8AC0C0BE27E874E1001D2F12 /* AstronoSight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstronoSight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC0C0C127E874E1001D2F12 /* AstronoSightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronoSightApp.swift; sourceTree = "<group>"; };
 		8AC0C0C327E874E1001D2F12 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		8ABB852627F6C1B100FED8DD /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				8ABB855027F72E0200FED8DD /* StoryHeader.swift */,
+				8ABB855027F72E0200FED8DD /* ListHeader.swift */,
 				8ABB854A27F72D7800FED8DD /* StoryView.swift */,
 				8ABB854C27F72DAD00FED8DD /* EventCardView.swift */,
 			);
@@ -295,7 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AC0C0C427E874E1001D2F12 /* MainView.swift in Sources */,
-				8ABB855127F72E0200FED8DD /* StoryHeader.swift in Sources */,
+				8ABB855127F72E0200FED8DD /* ListHeader.swift in Sources */,
 				8AC0C0C227E874E1001D2F12 /* AstronoSightApp.swift in Sources */,
 				8ABB853D27F6D4E700FED8DD /* UserService.swift in Sources */,
 				8ABB854D27F72DAD00FED8DD /* EventCardView.swift in Sources */,

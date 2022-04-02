@@ -18,7 +18,8 @@ struct StoryView: View {
             HStack (spacing: -16) {
                 ForEach(users, id: \.id) { user in
                     StoryCell(user: user)
-                        .padding(.all, 15)
+                        .padding([.leading, .trailing, .bottom], 15)
+                        .padding(.top, 8)
                 }
             }
         }
